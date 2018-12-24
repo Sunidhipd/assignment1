@@ -82,7 +82,7 @@ header a:hover{
   font-weight:bold;
 }
 
-/* Showcase */
+/* heroBar */
 #showcase{
   min-height:400px;
   background-image:url('../img/download.jpeg');
@@ -144,27 +144,6 @@ header a:hover{
 #boxes .box img{
   width:90px;
 }
-
-/* Sidebar */
-aside#sidebar{
-  float:right;
-  width:30%;
-  margin-top:10px;
-}
-
-aside#sidebar .quote input, aside#sidebar .quote textarea{
-  width:90%;
-  padding:5px;
-}
-
-/* Main-col */
-article#main-col{
-  float:left;
-  width:65%;
-}
-
-
-
 footer{
   padding:20px;
   margin-top:20px;
@@ -181,8 +160,7 @@ footer{
   #newsletter h1,
   #newsletter form,
   #boxes .box,
-  article#main-col,
-  aside#sidebar{
+  {
     float:none;
     text-align:center;
     width:100%;
@@ -196,7 +174,7 @@ footer{
     margin-top:40px;
   }
 
-  #newsletter button, .quote button{
+  #newsletter button{
     display:block;
     width:100%;
   }
